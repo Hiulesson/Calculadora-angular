@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="calc">
+        <div class="title-calc">
+            <h3>Calculadora</h3>
+        </div>
+        <div class="operations mt-2">
+            <div class="prev-calc">{{operacaoAnterior}}</div>
+            <div class="atual-calc">{{operacaoAtual}}</div>
+        </div>
+        <div class="btn-container mt-5">
+            <button (click)="adicionarAoVisor('CE')">CE</button>
+            <button (click)="adicionarAoVisor('C')">C</button>
+            <button (click)="adicionarAoVisor('DEL')">DEL</button>
+            <button (click)="adicionarAoVisor('/')">/</button>
+            <button (click)="adicionarAoVisor('7')" class="number">7</button>
+            <button (click)="adicionarAoVisor('8')" class="number">8</button>
+            <button (click)="adicionarAoVisor('9')" class="number">9</button>
+            <button (click)="adicionarAoVisor('X')">X</button>
+            <button (click)="adicionarAoVisor('4')" class="number">4</button>
+            <button (click)="adicionarAoVisor('5')" class="number">5</button>
+            <button (click)="adicionarAoVisor('6')" class="number">6</button>
+            <button (click)="adicionarAoVisor('-')">-</button>
+            <button (click)="adicionarAoVisor('1')" class="number">1</button>
+            <button (click)="adicionarAoVisor('2')" class="number">2</button>
+            <button (click)="adicionarAoVisor('3')" class="number">3</button>
+            <button (click)="adicionarAoVisor('+')">+</button>
+            <button (click)="adicionarAoVisor('.')" class="number">.</button>
+            <button (click)="adicionarAoVisor('0')" class="number">0</button>
+            <button (click)="adicionarAoVisor('=')" class="equal">=</button>
+        </div>
+    </div>
+</div>

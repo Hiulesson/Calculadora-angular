@@ -1,0 +1,23 @@
+@import './reseta.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+:root{
+    --color-primary:#FFFFFF;
+    --color-secodary:#F9F9F9;
+    --color-calc: #FFFFFF;
+    --bg-color:#111111;
+    --bg-title-color:#333333;
+    --bg-btn-color: #505050;
+    --bg-btn-number-color: #FFFFFF;
+    --bg-btn-equal-color: #F89B10;
+    --bg-btn-hover-color: #A5A5A5;
+}
+
+html{
+    font-family: 'Monstserrat', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 8px 0;
+}
